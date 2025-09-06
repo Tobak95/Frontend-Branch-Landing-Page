@@ -4,8 +4,7 @@ import HeroUp from "../component/HeroUp";
 import AboutMe from "../component/AboutMe";
 import MyRecentWorks from "../component/MyRecentWorks";
 import GoOnAProject from "../component/GoOnAProject";
-import Footer from "../component/layout/Footer";
-
+import Footer from "../component/Footer"
 const HomePage = () => {
   return (
     <div>
@@ -14,7 +13,7 @@ const HomePage = () => {
       <AboutMe />
       <MyRecentWorks />
       <GoOnAProject />
-      <Footer />
+      <Footer /> 
     </div>
   );
 };
