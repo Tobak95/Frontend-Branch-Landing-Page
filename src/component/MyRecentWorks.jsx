@@ -11,6 +11,7 @@ import vector1 from "../assets/Vector 135.png";
 import vector2 from "../assets/Vector 137.png";
 import vector3 from "../assets/Vector 139.png";
 import vector4 from "../assets/Vector 140.png";
+import face from '../assets/face.jpg'
 
 const MyRecentWorks = () => {
   //images for background
@@ -87,7 +88,7 @@ const MyRecentWorks = () => {
           <div className="group relative bg-slate-800/50 backdrop-blur-sm rounded-2xl overflow-hidden border border-slate-700/50 hover:border-teal-500/50 transition-all duration-500 hover:transform hover:scale-105">
             <div className="p-4 flex justify-center items-center h-64">
               <img 
-                src={course} 
+                src={face} 
                 alt="Course Website" 
                 className="max-h-full max-w-full object-contain rounded-lg"
               />
