@@ -76,9 +76,9 @@ const GoOnAProject = () => {
               ></textarea>
             </div>
 
-            <div className="py-4 px-2 lg:w-[232px]  rounded-full bg-[#00ADB5] text-center flex justify-center gap-2 items-center font-black shadow-sm">
+            <button className="py-4 px-2 lg:w-[232px]  rounded-full bg-[#00ADB5] text-center flex justify-center gap-2 items-center font-black shadow-sm">
               Send Message <img src={send} alt="send" />
-            </div>
+            </button>
           </form>
         </div>
       </div>
